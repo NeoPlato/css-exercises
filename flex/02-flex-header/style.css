@@ -2,6 +2,7 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 8px;
 }
@@ -30,17 +31,3 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
-
-div.left-links,
-div.right-links {
-  display: flex;
-  align-items: center;
-}
-
-div.left-links {
-  justify-content: left;
-}
-
-/* div.right-links {
-  gap: 8px;
-} */
