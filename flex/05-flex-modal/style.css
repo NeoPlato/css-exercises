@@ -21,7 +21,6 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  justify-content: space-between;
   gap: 16px;
   padding: 16px;
 }
@@ -40,27 +39,17 @@ body {
   flex-shrink: 0;
 }
 
-.main-stuff {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 12px;
-}
-
-.insurance {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .text {
-  display: flex;
-  align-items: center;
-}
-
-.insurance .header {
-  font-size: 18px;
-  font-weight: bold;
+  margin-bottom: 16px;
 }
 
 .close-button {
